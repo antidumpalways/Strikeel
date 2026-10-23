@@ -1,0 +1,34 @@
+# Dependencies and build output
+node_modules/
+.pnpm-store/
+.next/
+out/
+dist/
+build/
+coverage/
+test-results/
+playwright-report/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local database
+*.sqlite
+*.sqlite3
+*.db
+
+# Local agent tooling â€” never shipped in the product repo
+.opencode/
+opencode.json
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Local demo database
+data/
+
+# TypeScript incremental build state
+*.tsbuildinfo

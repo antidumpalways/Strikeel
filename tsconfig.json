@@ -1,0 +1,12 @@
+{
+  "files": [],
+  "references": [
+    { "path": "packages/core" },
+    { "path": "packages/adapters/strike" },
+    { "path": "packages/adapters/evm" },
+    { "path": "packages/adapters/solana" },
+    { "path": "packages/adapters/cardano" },
+    { "path": "packages/db" }
+  ]
+}
+

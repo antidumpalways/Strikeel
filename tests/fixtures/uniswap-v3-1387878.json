@@ -1,0 +1,25 @@
+{
+  "source": "Uniswap v3-sdk Position.amount0/amount1, computed from on-chain state",
+  "block": "26252256",
+  "tokenId": "1387878",
+  "token0": {
+    "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "symbol": "USDC",
+    "decimals": 6
+  },
+  "token1": {
+    "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "fee": 3000,
+  "tickLower": 197760,
+  "tickUpper": 198840,
+  "liquidity": "1498310469627684",
+  "sqrtPriceX96": "1619325696219616096821393719773772",
+  "tick": 198513,
+  "expected": {
+    "amount0": "1186.259646",
+    "amount1": "1.132515169107058645"
+  }
+}
